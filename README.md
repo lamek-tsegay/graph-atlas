@@ -2,15 +2,6 @@
 
 A lightweight graph toolkit for modeling and analyzing **relationship networks** — social graphs, knowledge graphs, service maps, and dependency graphs.
 
-This project is intentionally small but structured like a real package:
-- Clean, importable API
-- Core graph algorithms
-- Unit tests
-- Runnable examples
-- Proper `src/` layout
-
-
-
 ## Why this exists
 
 Graphs power many real-world systems:

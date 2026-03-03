@@ -9,7 +9,7 @@ This project is intentionally small but structured like a real package:
 - Runnable examples
 - Proper `src/` layout
 
----
+
 
 ## Why this exists
 
@@ -22,7 +22,7 @@ Graphs power many real-world systems:
 
 `graph-atlas` focuses on clarity, correctness, and developer experience.
 
----
+
 
 ## Features
 
@@ -45,7 +45,7 @@ Graphs power many real-world systems:
 - Runnable example scripts in `examples/`
 - Clean `src/` package layout
 
----
+
 
 ## Project layout
 
@@ -64,7 +64,7 @@ graph-atlas/
 └── README.md
 ```
 
----
+
 
 ## Installation
 
@@ -77,7 +77,7 @@ pip install -e .
 pip install pytest
 ```
 
----
+
 
 ## Quick start
 
@@ -110,7 +110,7 @@ print(find_cycle(deps))   # None if acyclic
 print(topo_sort(deps))    # Valid order if DAG
 ```
 
----
+
 
 ## Running the demo
 
@@ -118,7 +118,7 @@ print(topo_sort(deps))    # Valid order if DAG
 PYTHONPATH=src python3 examples/demo_network.py
 ```
 
----
+
 
 ## Running tests
 
@@ -126,7 +126,7 @@ PYTHONPATH=src python3 examples/demo_network.py
 pytest -q
 ```
 
----
+
 
 ## Design notes
 
@@ -151,7 +151,7 @@ Algorithms return developer-friendly structures:
 - Topological ordering as a list
 - Concrete cycles like `["auth", "billing", "search", "auth"]`
 
----
+
 
 ## Possible extensions
 
@@ -161,13 +161,13 @@ Algorithms return developer-friendly structures:
 - Performance benchmarking
 - CLI interface
 
----
+
 
 ## Academic integrity note
 
 This repository is a portfolio-oriented implementation with original structure and examples. It is not intended for coursework submission or reuse.
 
----
+
 
 ## License
 
